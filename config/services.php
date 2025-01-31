@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'ynab' => [
+        'token' => env('YNAB_TOKEN'),
+        'budget_id' => env('YNAB_BUDGET_ID'),
+    ],
+
 ];
